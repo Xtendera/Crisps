@@ -1,0 +1,27 @@
+{
+  "name": "crisps",
+  "version": "0.1.0",
+  "description": "A clone of the counting bot on discord, the successor to OpenCounting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xtendera/Crisps.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "counting"
+  ],
+  "author": "Xtendera",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Xtendera/Crisps/issues"
+  },
+  "homepage": "https://github.com/Xtendera/Crisps#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0"
+  }
+}
