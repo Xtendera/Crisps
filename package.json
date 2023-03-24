@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Xtendera/Crisps#readme",
   "dependencies": {
     "discord.js": "^14.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
   }
 }
