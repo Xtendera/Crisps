@@ -23,6 +23,7 @@ client.on(Events.MessageCreate, message => {
 	if (message.author.id == prevUser) {
 		number = 1;
 		prevUser = '';
+		message.react('⚠️');
 		message.reply('Same person cannot count twice! Next number is **1**');
 		return;
 	}
@@ -35,6 +36,7 @@ client.on(Events.MessageCreate, message => {
 	else {
 		number = 1;
 		prevUser = '';
+		message.react('⚠️');
 		message.reply('Wrong number! Next number is **1**');
 	}
 });
