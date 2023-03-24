@@ -16,9 +16,8 @@ client.once(Events.ClientReady, c => {
 });
 
 client.on(Events.MessageCreate, message => {
-	if (message.channelId != listenChannel) {
-		return;
-	}
+	if (message.channelId != listenChannel) return;
+	if (message.author.bot) return;
 
 	if (message.content == number) {
 		message.react('✅');
